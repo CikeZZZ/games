@@ -1,5 +1,31 @@
 [
     {
+        "id": "game-002",
+        "title": "森林治愈模拟器",
+        "category": "模拟",
+        "tags": [
+            "休闲",
+            "治愈"
+        ],
+        "short_desc": "种树，养花，享受宁静的午后时光。",
+        "cover": "https://via.placeholder.com/300x200?text=Cover+2",
+        "media": [
+            {
+                "type": "image",
+                "src": "https://via.placeholder.com/800x400?text=Forest+1"
+            }
+        ],
+        "description": "一款非常放松的游戏，没有战斗，只有鸟语花香。",
+        "updates": [],
+        "download": [
+            {
+                "platform": "iOS",
+                "url": "#",
+                "password": ""
+            }
+        ]
+    },
+        {
         "id": "game-001",
         "title": "超级赛博朋克冒险",
         "category": "RPG",
@@ -47,31 +73,6 @@
                 "password": "1234"
             }
         ]
-    },
-    {
-        "id": "game-002",
-        "title": "森林治愈模拟器",
-        "category": "模拟",
-        "tags": [
-            "休闲",
-            "治愈"
-        ],
-        "short_desc": "种树，养花，享受宁静的午后时光。",
-        "cover": "https://via.placeholder.com/300x200?text=Cover+2",
-        "media": [
-            {
-                "type": "image",
-                "src": "https://via.placeholder.com/800x400?text=Forest+1"
-            }
-        ],
-        "description": "一款非常放松的游戏，没有战斗，只有鸟语花香。",
-        "updates": [],
-        "download": [
-            {
-                "platform": "iOS",
-                "url": "#",
-                "password": ""
-            }
-        ]
     }
+
 ]
