@@ -1,0 +1,77 @@
+[
+    {
+        "id": "game-001",
+        "title": "超级赛博朋克冒险",
+        "category": "RPG",
+        "tags": [
+            "科幻",
+            "动作",
+            "剧情"
+        ],
+        "short_desc": "一款未来风格的角色扮演游戏，探索霓虹城市。",
+        "cover": "https://via.placeholder.com/300x200?text=Cover+1",
+        "media": [
+            {
+                "type": "image",
+                "src": "https://via.placeholder.com/800x400?text=Slide+1"
+            },
+            {
+                "type": "image",
+                "src": "https://via.placeholder.com/800x400?text=Slide+2"
+            },
+            {
+                "type": "video",
+                "src": "https://www.w3schools.com/html/mov_bbb.mp4"
+            }
+        ],
+        "description": "这里是游戏的详细介绍。<br>支持HTML标签，比如<b>加粗</b>。<br>玩家将扮演一名黑客...",
+        "updates": [
+            {
+                "date": "2023-10-01",
+                "content": "修复了已知Bug，优化了帧率。"
+            },
+            {
+                "date": "2023-09-15",
+                "content": "正式版发布。"
+            }
+        ],
+        "download": [
+            {
+                "platform": "Windows",
+                "url": "#",
+                "password": "无需密码"
+            },
+            {
+                "platform": "Android",
+                "url": "#",
+                "password": "1234"
+            }
+        ]
+    },
+    {
+        "id": "game-002",
+        "title": "森林治愈模拟器",
+        "category": "模拟",
+        "tags": [
+            "休闲",
+            "治愈"
+        ],
+        "short_desc": "种树，养花，享受宁静的午后时光。",
+        "cover": "https://via.placeholder.com/300x200?text=Cover+2",
+        "media": [
+            {
+                "type": "image",
+                "src": "https://via.placeholder.com/800x400?text=Forest+1"
+            }
+        ],
+        "description": "一款非常放松的游戏，没有战斗，只有鸟语花香。",
+        "updates": [],
+        "download": [
+            {
+                "platform": "iOS",
+                "url": "#",
+                "password": ""
+            }
+        ]
+    }
+]

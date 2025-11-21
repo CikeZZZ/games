@@ -1,16 +1,35 @@
-## Hi there 👋
+# 游戏分享平台
 
-<!--
-**CikeZZZ/cikezzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+这是一个基于 GitHub Pages 的游戏分享网站，提供游戏展示、搜索和下载功能。
 
-Here are some ideas to get you started:
+## 功能特性
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **响应式设计**: 适配各种设备屏幕
+- **游戏分类**: 按类型筛选游戏
+- **搜索功能**: 支持按名称、描述搜索
+- **游戏详情**: 展示游戏信息和轮播图
+- **下载功能**: 提供游戏下载链接
+
+## 使用方法
+
+1. Fork 此仓库
+2. 启用 GitHub Pages
+3. 自定义游戏数据
+4. 部署完成
+
+## 扩展指南
+
+- 在 `js/games-data.js` 中添加更多游戏
+- 自定义样式在 `css/style.css` 中
+- 添加更多功能到 `js/main.js`
+
+## 技术栈
+
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome 图标
+
+## 许可证
+
+MIT License
