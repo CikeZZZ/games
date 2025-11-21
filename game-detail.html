@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏详情 - 游戏分享平台</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/dark-theme.css"> 移除，因为已合并到 style.css -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>游戏分享平台</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">首页</a>
+                <a href="#" class="nav-link">分类</a>
+                <a href="#" class="nav-link">标签</a>
+                <a href="#" class="nav-link">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="game-detail">
+            <div class="container">
+                <div class="game-header">
+                    <h1 id="game-title">游戏标题</h1>
+                    <div class="game-meta">
+                        <span class="version" id="game-version">v1.0.0</span>
+                        <span class="developer" id="game-developer">开发商</span>
+                    </div>
+                </div>
+
+                <div class="game-content">
+                    <div class="game-preview">
+                        <div class="preview-container">
+                            <div class="preview-slider" id="preview-slider">
+                                <!-- 预览图片/视频将通过JavaScript动态生成 -->
+                            </div>
+                            <div class="preview-nav">
+                                <button id="prev-btn" class="slider-btn">‹</button>
+                                <button id="next-btn" class="slider-btn">›</button>
+                            </div>
+                            <div class="preview-indicators" id="preview-indicators">
+                                <!-- 指示器将通过JavaScript动态生成 -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="game-info">
+                        <div class="game-description">
+                            <h3>游戏简介</h3>
+                            <p id="game-short-desc">游戏简介内容</p>
+                        </div>
+
+                        <div class="game-details">
+                            <h3>详细信息</h3>
+                            <p id="game-long-desc">游戏详细描述内容</p>
+                        </div>
+
+                        <div class="game-categories">
+                            <h3>分类</h3>
+                            <div class="tags" id="game-categories">
+                                <!-- 分类标签将通过JavaScript动态生成 -->
+                            </div>
+                        </div>
+
+                        <div class="game-tags">
+                            <h3>标签</h3>
+                            <div class="tags" id="game-tags">
+                                <!-- 标签将通过JavaScript动态生成 -->
+                            </div>
+                        </div>
+
+                        <div class="game-updates">
+                            <h3>更新日志</h3>
+                            <ul id="game-updates">
+                                <!-- 更新日志将通过JavaScript动态生成 -->
+                            </ul>
+                        </div>
+
+                        <div class="game-downloads">
+                            <h3>下载</h3>
+                            <div class="download-platforms">
+                                <div class="platform" id="windows-downloads">
+                                    <h4>Windows</h4>
+                                    <div class="download-links"></div>
+                                </div>
+                                <div class="platform" id="android-downloads">
+                                    <h4>Android</h4>
+                                    <div class="download-links"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-info">
+                            <h3>联系开发者</h3>
+                            <p>邮箱: <a href="#" id="developer-email">contact@example.com</a></p> <!-- 修改为 href="#" -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 预览放大模态框 -->
+    <div id="preview-modal" class="preview-modal hidden">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-nav">
+                <button id="modal-prev-btn" class="modal-nav-btn">‹</button>
+                <button id="modal-next-btn" class="modal-nav-btn">›</button>
+            </div>
+            <img id="modal-preview-img" class="modal-preview" src="" alt="放大预览">
+            <video id="modal-preview-video" class="modal-preview" controls style="display: none;"></video>
+        </div>
+    </div>
+
+    <!-- 复制提示 -->
+    <div id="copy-toast" class="copy-toast hidden">邮箱已复制到剪贴板</div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 游戏分享平台. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/game-data.js"></script>
+    <script src="js/game-detail.js"></script>
+</body>
+
+</html>

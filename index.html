@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏分享平台</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-brand">
+                <h1>游戏分享平台</h1>
+            </div>
+            <div class="nav-menu">
+                <a href="#" class="nav-link active">首页</a>
+                <a href="#" class="nav-link">分类</a>
+                <a href="#" class="nav-link">标签</a>
+                <a href="#" class="nav-link">关于</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>发现精彩游戏</h2>
+                <p>一个专注于独立游戏分享的平台</p>
+            </div>
+        </section>
+
+        <section class="search-section">
+            <div class="container">
+                <div class="search-box">
+                    <input type="text" id="search-input" placeholder="搜索游戏名称、描述或开发者...">
+                    <button id="search-btn">搜索</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="filters-section">
+            <div class="container">
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="category-filter">分类:</label>
+                        <select id="category-filter">
+                            <option value="">全部</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label for="tag-filter">标签:</label>
+                        <select id="tag-filter">
+                            <option value="">全部</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="games-section">
+            <div class="container">
+                <div class="games-grid" id="games-grid">
+                    <!-- 游戏卡片将通过JavaScript动态生成 -->
+                </div>
+                <div class="pagination" id="pagination">
+                    <!-- 分页将通过JavaScript动态生成 -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 游戏分享平台. 保留所有权利.</p>
+        </div>
+    </footer>
+
+    <script src="js/game-data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
